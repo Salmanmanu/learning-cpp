@@ -3,7 +3,7 @@ using namespace std;
 int main(){
 
     int target = 9;
-    int nums[] ={2,7,11,15};
+    int nums[] ={5,7,2,15};
     int size = sizeof(nums)/sizeof(nums[0]);
     int n = size;
     for (int i = 0; i < n - 1; i++) {
@@ -13,7 +13,6 @@ int main(){
             }
         }
     }
-        return {};
     
     return 0;
 }
